@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply overflow-x-hidden; /* Prevent horizontal scrolling */
+}
+
+html {
+  @apply overflow-y-scroll; /* Always show the vertical scrollbar */
+}
+
+body {
+  @apply font-barlow text-secondary;
+  width: 100vw; /* Ensure body width stays 100% */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-dmSans text-primary;
+}
+
+.h1 {
+  @apply text-[40px] xl:text-[54px] uppercase font-black leading-[1.1];
+}
+.h2 {
+  @apply text-[36px] xl:text-[46px] capitalize font-bold leading-[1.3] xl:leading-[56px];
+}
+.h3 {
+  @apply text-[24px] font-bold;
+}
+.h4 {
+  @apply text-2xl font-semibold;
+}
