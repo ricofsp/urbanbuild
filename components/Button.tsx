@@ -1,7 +1,7 @@
 import { RiArrowRightUpLine } from "react-icons/ri";
 
 interface ButtonProps {
-  text: String;
+  text: string;
 }
 
 const Button = ({ text }: ButtonProps) => {

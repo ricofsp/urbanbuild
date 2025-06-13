@@ -51,9 +51,9 @@ const Faq = () => {
           className="text-center max-w-[540px] mx-auto lg:mb-20"
         >
           <Pretitle text="Faq" center />
-          <h2 className="mb-3 h2">Got Questions? We've Got You Covered</h2>
+          <h2 className="mb-3 h2">Got Questions? We&apos;ve Got You Covered</h2>
           <p className="mb-11 max-w-[480px] mx-auto">
-            From project planning to final touches, we've answered the most
+            From project planning to final touches, we&apos;ve answered the most
             common questions to help you make informed decisious.
           </p>
         </motion.div>

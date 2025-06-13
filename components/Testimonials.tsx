@@ -21,8 +21,8 @@ const Testimonials = () => {
             <h2 className="h2">Built on Trust, Proven by Results</h2>
             <p className="mb-10 max-w-[420px]">
               From homes to commercial spaces, our clients share their
-              experiences of working with us. See how we've helped them bring
-              their dreams to live with craftsmanshiip.
+              experiences of working with us. See how we&apos;ve helped them
+              bring their dreams to live with craftsmanshiip.
             </p>
             <Button text="Work with us" />
           </motion.div>

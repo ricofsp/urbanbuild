@@ -5,8 +5,8 @@ const FaqItem = ({
   title,
   description,
 }: {
-  title: String;
-  description: String;
+  title: string;
+  description: string;
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
